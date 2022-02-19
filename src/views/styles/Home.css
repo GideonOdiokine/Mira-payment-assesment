@@ -1,3 +1,7 @@
+h3 {
+    margin: 20px 0;
+}
+
 .content {
     max-width: 600px;
     margin: 40px auto;
@@ -12,6 +16,10 @@
 
 .blog-preview:hover {
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-preview a {
+    text-decoration: none;
 }
 
 .blog-preview h2 {
@@ -32,4 +40,25 @@
     background: rgb(230, 22, 22);
     color: #fff;
     border-radius: 4px;
+}
+
+
+/* Blog detail */
+.blog-details h2 {
+    font-size: 20px;
+    color: #f1356d;
+    margin-bottom: 10px;
+}
+
+.blog-details div {
+    margin: 20px 0;
+}
+
+.blog-details button {
+    background: #f1356d;
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
 }
