@@ -28,7 +28,7 @@ const useFetch = (url) => {
         }
       });
     return () => abortCont.abort();
-  }, [url]);
+  }, [url,data]);
 
   return { data, loading, error, setData };
 };
