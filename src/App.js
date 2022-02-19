@@ -4,6 +4,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./views/Home";
 import Create from "./views/Create";
+import BlogDetails from "./views/BlogDetails";
 
 function App() {
   return (
@@ -15,8 +16,11 @@ function App() {
             <Route path="/" exact>
               <Home />
             </Route>
-            <Route path="/create" exact>
+            <Route path="/create">
               <Create />
+            </Route>
+            <Route path="/blogs/:id">
+              <BlogDetails />
             </Route>
           </Switch>
         </div>
