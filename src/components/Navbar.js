@@ -5,7 +5,9 @@ import "./styles/Navbar.css";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <h1>Blog App</h1>
+      <Link to="/">
+        <h2>CRUD APP</h2>
+      </Link>
       <div className="links">
         <Link to="/">Home </Link>
         <Link to="/create">New Blog </Link>
