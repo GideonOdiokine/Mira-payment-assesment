@@ -16,7 +16,6 @@ const Home = () => {
     }).then(() => console.log("Great"));
   };
 
-
   return (
     <div className="home">
       {error && <h4>{error}</h4>}

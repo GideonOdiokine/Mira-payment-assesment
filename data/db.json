@@ -1,22 +1,16 @@
 {
   "blogs": [
     {
-      "title": "top 5 CSS tips",
-      "body": "I’m a frontend developer using HTML, CSS, JAVASCRIPT, REACT. and content creator based in the Nigeria.",
-      "id": 2,
-      "author": "Gideon"
-    },
-    {
-      "id": 9716,
-      "title": "Buy House",
-      "body": "Just go see a movie",
-      "author": "Odiokine"
-    },
-    {
-      "title": "Road to Home",
+      "title": "This is a book with a cover page story",
       "body": "Go to the mall to see a rite\n",
-      "author": "Odiokine",
-      "id": 9719
+      "author": "Gideon",
+      "id": 99
+    },
+    {
+      "title": "The boy goes to school",
+      "body": "This is a very interesting book",
+      "author": "Okon",
+      "id": 100
     }
   ]
 }
