@@ -28,9 +28,9 @@ const useFetch = (url) => {
         }
       });
     return () => abortCont.abort();
-  }, [url,data]);
+  }, [url, data]);
 
-  return { data, loading, error, setData };
+  return { data, loading, error };
 };
 
 export default useFetch;

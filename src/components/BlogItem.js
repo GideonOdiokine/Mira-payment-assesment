@@ -9,7 +9,7 @@ const BlogItem = ({ blog, handleDelete }) => {
           <h2>{blog.title}</h2>
         </Link>
 
-          <p>Written by {blog.author}</p>
+        <p>Written by {blog.author}</p>
       </div>
       <div className="del">
         <button onClick={() => handleDelete(blog.id)}>Delete</button>
