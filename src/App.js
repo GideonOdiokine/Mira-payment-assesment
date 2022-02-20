@@ -5,6 +5,8 @@ import Navbar from "./components/Navbar";
 import Home from "./views/Home";
 import Create from "./views/Create";
 import BlogDetails from "./views/BlogDetails";
+// import UpdateBlog from "./views/UpdateBlog";
+import Edit from "./views/Edit";
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
             <Route path="/blogs/:id">
               <BlogDetails />
             </Route>
+            <Route path="/edit" render={(props) => <Edit {...props} />} />
           </Switch>
         </div>
       </div>
